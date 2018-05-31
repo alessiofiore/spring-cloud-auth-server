@@ -1,0 +1,13 @@
+server:
+  port: 7070
+  
+security:
+  security-realm: Spring Boot JWT Example Realm
+  jwt:    
+    signing-key: MaYzkSjmkzPC57L
+    client-id: testjwtclientid
+    client-secret: XY7kmzoNzl100
+    grant-type: password
+    scope-read: read
+    scope-write: write
+    resource-ids: testjwtresourceid

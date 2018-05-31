@@ -11,3 +11,4 @@ security:
     scope-read: read
     scope-write: write
     resource-ids: testjwtresourceid
+    token-validity-seconds: 60 

@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.madbit</groupId>
-	<artifactId>spring-boot-auth-server</artifactId>
+	<artifactId>spring-cloud-auth-server</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 

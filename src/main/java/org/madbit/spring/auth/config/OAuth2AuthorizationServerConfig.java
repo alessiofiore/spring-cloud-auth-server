@@ -2,6 +2,7 @@ package org.madbit.spring.auth.config;
 
 import java.util.Arrays;
 
+import org.madbit.spring.auth.exception.AuthResponseExceptionTranslator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -97,7 +98,8 @@ public class OAuth2AuthorizationServerConfig extends AuthorizationServerConfigur
 		.tokenStore(tokenStore)
 		.accessTokenConverter(accessTokenConverter)
 		.tokenEnhancer(enhancerChain)
-		.authenticationManager(authenticationManager);
+		.authenticationManager(authenticationManager)
+		.exceptionTranslator(new AuthResponseExceptionTranslator());
 	}
 
 	@Override

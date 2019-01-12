@@ -1,7 +1,10 @@
-/target/
+**/target/
+**/bin/
 !.mvn/wrapper/maven-wrapper.jar
+ 
 
-### STS ###
+### Eclipse ###
+
 .apt_generated
 .classpath
 .factorypath
@@ -9,17 +12,15 @@
 .settings
 .springBeans
 .sts4-cache
+.recommenders
+.metadata
 
 ### IntelliJ IDEA ###
+
 .idea
 *.iws
 *.iml
-*.ipr
 
-### NetBeans ###
-/nbproject/private/
-/build/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+### MacOS ###
+
+.DS_Store
